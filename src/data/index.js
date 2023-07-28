@@ -1,13 +1,13 @@
 export const data = [
   {
     id: 1,
-    slug: 'jawa',
-    title: 'Baju adat di Jawa',
+    slug: 'zakat',
+    title: 'Pengenalan Zakat',
     desc: 'Dikenal dengan desain yang elegan, baju adat Jawa memiliki beragam warna dan variasi yang memikat',
     data: [
       {
-        title: 'batik sidoluhur',
-        img: '/img/batiksidoluhur.jpg',
+        title: 'Pengertian Zakat',
+        img: '/img/zakat.jpg',
         description:
           'Batik Sida Luhur (dibaca Sido Luhur; kadang juga digabung menjadi Sidaluhur atau Sidoluhur) adalah salah satu motif batik pedalaman yang cukup populer. Sesuai dengan namanya, motif ini bermakna harapan untuk mencapai kedudukan yang tinggi dan dapat menjadi panutan masyarakat (keluhuran).',
         is_read: false,
@@ -40,8 +40,8 @@ export const data = [
   },
   {
     id: 2,
-    slug: 'kalimantan',
-    title: 'Baju adat di Kalimantan',
+    slug: 'syarat',
+    title: 'Syarat Melaksanakan Zakat',
     desc: 'Setiap suku di Kalimantan memiliki baju adat yang unik dengan ciri khasnya sendiri',
     data: [
       {
@@ -72,8 +72,8 @@ export const data = [
   },
   {
     id: 3,
-    slug: 'sumatera',
-    title: 'Baju adat di Sumatera',
+    slug: 'lembaga',
+    title: 'Lembaga Amil Zakat',
     desc: 'Baju adat Sumatra mempesona dengan keindahan dan keunikan desainnya. Memadukan warna-warna cerah',
     data: [
       {
@@ -102,70 +102,70 @@ export const data = [
       },
     ],
   },
-  {
-    id: 4,
-    slug: 'sulawesi',
-    title: 'Baju adat di Sulawesi',
-    desc: 'Baju adat Sulawesi menampilkan kekayaan budaya dan keindahan alam pulau ini',
-    data: [
-      {
-        title: 'labbu',
-        img: '/img/labbu.jpg',
-        description: 'Baju Labbu adalah pakaian adat khas Sulawesi Selatan yang awalnya digunakan oleh wanita bangsawan di kerajaan Luwu. Namun, saat ini baju Labbu dapat digunakan oleh semua wanita dalam berbagai acara adat atau pernikahan. Pakaian ini memiliki desain unik dengan lengan panjang dan ketat, serta menggunakan kain sutra tipis dan sarung lipa sebagai bawahan. Selain itu, baju Labbu juga memiliki motif seperti corak bunga pada bagian dada dan lengan.',
-        is_read: false,
-      },
-      {
-        title: 'bodo',
-        img: '/img/bodo.jpg',
-        description: 'Pakaian Bodo adalah pakaian adat suku Bugis Sulawesi Selatan. Desainnya unik dengan bentuk persegi dan lengan pendek. Warna pakaian Bodo memberikan informasi tentang usia dan status pemakainya. Terbuat dari kain muslim yang nyaman dipadukan dengan sarung kotak-kotak. ',
-        is_read: false,
-      },
-      {
-        title: 'pokko',
-        img: '/img/pokko.jpg',
-        description: 'Baju pokko merupakan pakaian adat suku Toraja Sulawesi Selatan yang umumnya dikenakan oleh kaum wanita. Baju ini memiliki lengan pendek dan warna-warna berani seperti kuning, merah dan putih. Asesoris seperti perhiasan dan manik-manik sering dipakai dan manik-manik diletakkan di dada. Pakaian pokko juga memiliki gelang dan ikat kepala atau ikat pinggang yang disebut kandure. Umumnya, pakaian Pokko hanya dikenakan pada acara-acara resmi. ',
-        is_read: false,
-      },
-      {
-        title: 'pattuqduq towanie',
-        img: '/img/pattuqduqtowanie.png',
-        description: 'Baju Pattuqduq Towaine adalah pakaian adat suku Mandar di Sulawesi Selatan. Biasanya digunakan pada acara pernikahan atau pertunjukan tari Pattuqduq. Terdiri dari 18 bagian atau 24 bagian jika digunakan untuk pernikahan. Baju ini hadir dalam berbagai gaya termasuk sarung bermotif, sarung rantai, dan sarung pada pinggir bawah. Busana Pattuqduq Towaine dipadukan dengan berbagai ornamen baik di kepala maupun di tangan. Najuini lebih sering dikenakan oleh wanita, sedangkan pria mengenakan jaket berbalut sutra dengan celana panjang dan sarung di pinggang. Baju Pattuqduq Towaine melambangkan kecakapan dan kemahiran orang Mandarin dalam bekerja dan bertindak. ',
-        is_read: false,
-      },
-    ],
-  },
-  {
-    id: 5,
-    slug: 'papua',
-    title: 'Baju adat di Papua',
-    desc: 'Baju adat Papua menggambarkan kekayaan alam dan kehidupan suku-suku asli Papua',
-    data: [
-      {
-        title: 'koteka',
-        img: '/img/koteka.png',
-        description: 'Koteka adalah pakaian tradisional yang digunakan oleh sebagian penduduk asli Pulau Papua untuk menutupi kemaluan laki-laki. Terbuat dari moncong burung taong-taong atau kulit labu. Ukuran dan bentuk koteka tidak berkaitan dengan status pemakainya, melainkan lebih terkait dengan aktivitas pengguna atau upacara adat. Setiap suku memiliki perbedaan bentuk koteka, seperti suku Yali yang lebih suka bentuk labu yang panjang. Namun, penggunaan koteka sehari-hari semakin berkurang dan sering hanya digunakan sebagai cenderamata. Di kawasan pegunungan seperti Wamena, koteka masih dipakai, sementara di kawasan pantai sulit ditemukan. Koteka merupakan penutup alat kelamin pria yang terbuat dari kulit labu air yang dikeringkan dan dikaitkan di pinggang. Penggunaan koteka juga memiliki kaitan dengan status sosial, di mana semakin tinggi kedudukan pria secara adat, ukuran koteka yang dikenakan juga semakin besar.',
-        is_read: false,
-      },
-    ],
-  },
-  {
-    id: 6,
-    slug: 'bali',
-    title: 'Baju adat Bali',
-    desc: 'Baju adat Bali memancarkan pesona dan keanggunan seni budaya Bali.',
-    data: [
-      {
-        title: 'batik bali',
-        img: '/img/batikbali.jpg',
-        description: 'Batik Bali merupakan hasil penyebaran batik dari Pulau Jawa ke Bali. Masyarakat Bali memiliki keahlian seni yang tinggi, sehingga batik berkembang dengan pesat di sana. Motif batik Bali terinspirasi dari lingkungan alam dan budaya Bali, serta pengaruh dari daerah lain. Motifnya bervariasi, antara lain Sekar Jagad Bali, Teratai Banji, dan Poleng Biru. Batik Bali digunakan dalam berbagai keperluan, termasuk upacara adat, kehidupan sehari-hari, dan sebagai cinderamata wisatawan. Batik Bali memiliki ciri khas seperti aksen yang berbeda-beda, perpaduan motif tradisional dan modern, inspirasi dari kisah para Dewa, perpaduan budaya asli dan luar, penggunaan pewarna alami, dan penggunaan kain mori yang lebih berat.',
-        is_read: false,
-      },
-      {
-        title: 'baju Safari',
-        img: '/img/safari.jpeg',
-        description: 'Baju safari, yang umumnya memiliki nuansa putih atau pola tertentu, merupakan pakaian adat yang dikenakan dengan tambahan selempang dan hiasan kepala tradisional yang disebut udeng. Kamben pada baju safari dikemas dengan cara yang berbeda antara pria dan wanita. Pada pria, kamben dikenakan di pinggang dengan lipatan di bagian depan, sementara pada wanita, kamben dibungkus erat-erat untuk memastikan tidak ada lipatan atau renda terlihat. Selain itu, baju safari juga dilengkapi dengan saku yang ditempatkan di sisi kiri atau kanan. Dengan ciri-ciri uniknya, baju safari menciptakan kesan yang khas dan memikat bagi mereka yang mengenakannya.',
-        is_read: false,
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   slug: 'sulawesi',
+  //   title: 'Baju adat di Sulawesi',
+  //   desc: 'Baju adat Sulawesi menampilkan kekayaan budaya dan keindahan alam pulau ini',
+  //   data: [
+  //     {
+  //       title: 'labbu',
+  //       img: '/img/labbu.jpg',
+  //       description: 'Baju Labbu adalah pakaian adat khas Sulawesi Selatan yang awalnya digunakan oleh wanita bangsawan di kerajaan Luwu. Namun, saat ini baju Labbu dapat digunakan oleh semua wanita dalam berbagai acara adat atau pernikahan. Pakaian ini memiliki desain unik dengan lengan panjang dan ketat, serta menggunakan kain sutra tipis dan sarung lipa sebagai bawahan. Selain itu, baju Labbu juga memiliki motif seperti corak bunga pada bagian dada dan lengan.',
+  //       is_read: false,
+  //     },
+  //     {
+  //       title: 'bodo',
+  //       img: '/img/bodo.jpg',
+  //       description: 'Pakaian Bodo adalah pakaian adat suku Bugis Sulawesi Selatan. Desainnya unik dengan bentuk persegi dan lengan pendek. Warna pakaian Bodo memberikan informasi tentang usia dan status pemakainya. Terbuat dari kain muslim yang nyaman dipadukan dengan sarung kotak-kotak. ',
+  //       is_read: false,
+  //     },
+  //     {
+  //       title: 'pokko',
+  //       img: '/img/pokko.jpg',
+  //       description: 'Baju pokko merupakan pakaian adat suku Toraja Sulawesi Selatan yang umumnya dikenakan oleh kaum wanita. Baju ini memiliki lengan pendek dan warna-warna berani seperti kuning, merah dan putih. Asesoris seperti perhiasan dan manik-manik sering dipakai dan manik-manik diletakkan di dada. Pakaian pokko juga memiliki gelang dan ikat kepala atau ikat pinggang yang disebut kandure. Umumnya, pakaian Pokko hanya dikenakan pada acara-acara resmi. ',
+  //       is_read: false,
+  //     },
+  //     {
+  //       title: 'pattuqduq towanie',
+  //       img: '/img/pattuqduqtowanie.png',
+  //       description: 'Baju Pattuqduq Towaine adalah pakaian adat suku Mandar di Sulawesi Selatan. Biasanya digunakan pada acara pernikahan atau pertunjukan tari Pattuqduq. Terdiri dari 18 bagian atau 24 bagian jika digunakan untuk pernikahan. Baju ini hadir dalam berbagai gaya termasuk sarung bermotif, sarung rantai, dan sarung pada pinggir bawah. Busana Pattuqduq Towaine dipadukan dengan berbagai ornamen baik di kepala maupun di tangan. Najuini lebih sering dikenakan oleh wanita, sedangkan pria mengenakan jaket berbalut sutra dengan celana panjang dan sarung di pinggang. Baju Pattuqduq Towaine melambangkan kecakapan dan kemahiran orang Mandarin dalam bekerja dan bertindak. ',
+  //       is_read: false,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   slug: 'papua',
+  //   title: 'Baju adat di Papua',
+  //   desc: 'Baju adat Papua menggambarkan kekayaan alam dan kehidupan suku-suku asli Papua',
+  //   data: [
+  //     {
+  //       title: 'koteka',
+  //       img: '/img/koteka.png',
+  //       description: 'Koteka adalah pakaian tradisional yang digunakan oleh sebagian penduduk asli Pulau Papua untuk menutupi kemaluan laki-laki. Terbuat dari moncong burung taong-taong atau kulit labu. Ukuran dan bentuk koteka tidak berkaitan dengan status pemakainya, melainkan lebih terkait dengan aktivitas pengguna atau upacara adat. Setiap suku memiliki perbedaan bentuk koteka, seperti suku Yali yang lebih suka bentuk labu yang panjang. Namun, penggunaan koteka sehari-hari semakin berkurang dan sering hanya digunakan sebagai cenderamata. Di kawasan pegunungan seperti Wamena, koteka masih dipakai, sementara di kawasan pantai sulit ditemukan. Koteka merupakan penutup alat kelamin pria yang terbuat dari kulit labu air yang dikeringkan dan dikaitkan di pinggang. Penggunaan koteka juga memiliki kaitan dengan status sosial, di mana semakin tinggi kedudukan pria secara adat, ukuran koteka yang dikenakan juga semakin besar.',
+  //       is_read: false,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   slug: 'bali',
+  //   title: 'Baju adat Bali',
+  //   desc: 'Baju adat Bali memancarkan pesona dan keanggunan seni budaya Bali.',
+  //   data: [
+  //     {
+  //       title: 'batik bali',
+  //       img: '/img/batikbali.jpg',
+  //       description: 'Batik Bali merupakan hasil penyebaran batik dari Pulau Jawa ke Bali. Masyarakat Bali memiliki keahlian seni yang tinggi, sehingga batik berkembang dengan pesat di sana. Motif batik Bali terinspirasi dari lingkungan alam dan budaya Bali, serta pengaruh dari daerah lain. Motifnya bervariasi, antara lain Sekar Jagad Bali, Teratai Banji, dan Poleng Biru. Batik Bali digunakan dalam berbagai keperluan, termasuk upacara adat, kehidupan sehari-hari, dan sebagai cinderamata wisatawan. Batik Bali memiliki ciri khas seperti aksen yang berbeda-beda, perpaduan motif tradisional dan modern, inspirasi dari kisah para Dewa, perpaduan budaya asli dan luar, penggunaan pewarna alami, dan penggunaan kain mori yang lebih berat.',
+  //       is_read: false,
+  //     },
+  //     {
+  //       title: 'baju Safari',
+  //       img: '/img/safari.jpeg',
+  //       description: 'Baju safari, yang umumnya memiliki nuansa putih atau pola tertentu, merupakan pakaian adat yang dikenakan dengan tambahan selempang dan hiasan kepala tradisional yang disebut udeng. Kamben pada baju safari dikemas dengan cara yang berbeda antara pria dan wanita. Pada pria, kamben dikenakan di pinggang dengan lipatan di bagian depan, sementara pada wanita, kamben dibungkus erat-erat untuk memastikan tidak ada lipatan atau renda terlihat. Selain itu, baju safari juga dilengkapi dengan saku yang ditempatkan di sisi kiri atau kanan. Dengan ciri-ciri uniknya, baju safari menciptakan kesan yang khas dan memikat bagi mereka yang mengenakannya.',
+  //       is_read: false,
+  //     },
+  //   ],
+  // },
 ]

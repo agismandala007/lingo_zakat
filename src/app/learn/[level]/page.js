@@ -32,7 +32,7 @@ export default function Page({ params }) {
   return (
     <div className='h-fit pb-20 grid grid-cols-[2fr_1fr] mt-8 gap-4 px-6'>
       <div className='h-fit'>
-        <h1 className='text-xl font-semibold'>Baju adat di {params.level}</h1>
+        <h1 className='text-xl font-semibold'>{params.level.charAt(0).toUpperCase() + params.level.slice(1)}</h1>
         <div className='w-full bg-gray-100 h-fit rounded-xl mt-4 p-4'>
           <Image
             src={detail?.data[index].img}
@@ -45,7 +45,7 @@ export default function Page({ params }) {
       </div>
       <div className='mt-11'>
         <p className='text-xl text-slate-800 font-semibold'>
-          Baju {detail?.data[index].title}
+          {detail?.data[index].title}
         </p>
         <p className='font-semibold text-slate-700 mt-3'>Deskripsi</p>
         <p className='mt-2 text-slate-500'>{detail?.data[index].description}</p>

@@ -19,11 +19,11 @@ export default function Sidebar() {
           href='/'
           className='text-emerald-500 text-2xl font-semibold flex gap-3 items-center'
         >
-          <p>Lingo Culture</p>
+          <p>Lingo Zakat</p>
           <Image src={imgLogo} width={24} />
         </Link>
         <div className='mt-12 flex flex-col gap-4'>
-          <Link
+          {/* <Link
             href='/'
             className={[
               'w-full py-3 rounded-lg border-2 grid grid-cols-[1fr_8fr] gap-2 px-4 font-semibold',
@@ -34,10 +34,10 @@ export default function Sidebar() {
           >
             <Image src={img1} width={24} />
             <p className='text-lg'>Baju Adat</p>
-          </Link>
+          </Link> */}
 
-          <Link
-            href='/'
+          {/* <Link
+            href='/quiz'
             className={[
               'w-full py-3 rounded-lg border-2 grid grid-cols-[1fr_8fr] gap-2 px-4 font-semibold',
               pathname === '/quiz'
@@ -47,7 +47,7 @@ export default function Sidebar() {
           >
             <Image src={img2} width={24} />
             <p className='text-lg'>Kuis</p>
-          </Link>
+          </Link> */}
 
           {/* <Link
             href='/'
