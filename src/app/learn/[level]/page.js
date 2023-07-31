@@ -32,7 +32,7 @@ export default function Page({ params }) {
   return (
     <div className='h-fit pb-20 grid grid-cols-[2fr_1fr] mt-8 gap-4 px-6'>
       <div className='h-fit'>
-        <h1 className='text-xl font-semibold'>{params.level.charAt(0).toUpperCase() + params.level.slice(1)}</h1>
+        <h1 className='text-xl font-semibold'>{params.level.charAt(0).toUpperCase() + params.level.slice(1)} Zakat</h1>
         <div className='w-full bg-gray-100 h-fit rounded-xl mt-4 p-4'>
           <Image
             src={detail?.data[index].img}
