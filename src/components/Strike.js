@@ -35,7 +35,7 @@ export default function Strike() {
     <div className='h-fit mt-8 sticky top-4 right-4 duration-200 ease-in'>
       <div className='bg-gray-100 rounded-xl p-4 pb-5'>
         <div className='flex gap-3 items-center'>
-          <Image src={img} width={32} />
+          <Image src={img} width={32} alt='image' />
           <p className='text-2xl font-semibold text-amber-500'>{poin}</p>
         </div>
         <ProgressBar num={level} />

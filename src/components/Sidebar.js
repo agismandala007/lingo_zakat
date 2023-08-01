@@ -16,7 +16,7 @@ export default function Sidebar() {
           className='text-emerald-500 text-2xl font-semibold flex gap-3 items-center'
         >
           <p>Lingo Zakat</p>
-          <Image src={imgLogo} width={24} />
+          <Image src={imgLogo} width={24} alt='image'/>
         </Link>
       </div>
     </div>
